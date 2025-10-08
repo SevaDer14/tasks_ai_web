@@ -1,5 +1,5 @@
 import { prisma } from "../../../prisma/db";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 export const dynamic = "force-dynamic";
 

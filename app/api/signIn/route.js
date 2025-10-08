@@ -1,5 +1,5 @@
 import { prisma } from "../../../prisma/db";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { createAccessToken } from "../../../lib/auth";
 
 export const dynamic = "force-dynamic";
