@@ -7,7 +7,6 @@
     "vercel-build": "prisma generate && prisma migrate deploy && next build"
   },
   "dependencies": {
-    "@prisma/adapter-neon": "^6.17.0",
     "@prisma/client": "^5.21.1",
     "bcryptjs": "^3.0.2",
     "jsonwebtoken": "^9.0.2",
